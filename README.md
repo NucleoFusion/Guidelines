@@ -1,5 +1,5 @@
 # Sourceware Labs
-  **Introduction**
+  #  **Introduction**
   Welcome to Sourceware Labs.
   <br /><br /> 
   We are collaborative community where individuals from all backgrounds and experience come together to learn and build projects. 
@@ -9,7 +9,7 @@
 
 ---
 
-  **Prerequisites**
+  # **Prerequisites**
   To keep it simple, there are no prerequisites.
   <br /><br />
   While there are no prerequisites, an individual may need to utilize tools such as Git, Github etc to be able to
@@ -17,7 +17,7 @@
   to help you. You can ask questions in the community, or, if you have some specific question, pertaining to
   a project, or tool, feel free to ping the Project Leads (@project-lead) or Admins (@admin) and theyll be able to help you.
 
-  **How to Get Started**
+  # **How to Get Started**
   Getting started is simple, you can browse the #project-hub channel to find a project, or submit one of your own ideas there.
   Once you find a project you are suitable with, you can go to the github repository of that respective project and fork it.
   Some things to keep in mind while forking, make sure you disable the "Fork main branch only" option. You will see why
@@ -28,7 +28,7 @@
   us to have a CI/CD pipeline, which in leymann terms, means that whenever the code on the main branch changes, all active deployments of
   that respective project switch to the new version. This allows us to develop and work on the project beside the deployments without hindering it.
 
-  **Submitting Contributions**
+  # **Submitting Contributions**
   We love contributions from everyone! Whether you're fixing a bug, adding a new feature, or improving documentation, your help is always appreciated.
   Here's how you can contribute:
   Follow the steps below to contribute effectively:
@@ -58,13 +58,12 @@
       style: format code according to ESLint rules<br>
       test: add unit test for login function<br>
       chore: update dependencies to latest version<br>
+  6. **Push and Create a Pull Request:** Once you're ready, push your changes to your forked repository and open a pull request to the `dev` repository.
+  **Note:** open a pull request per feature and don't forget to link the corresponding issue by writing the `#issue-number`.
 
-6. **Push and Create a Pull Request:** Once you're ready, push your changes to your forked repository and open a pull request to the `dev` repository.
-**Note:** open a pull request per feature and don't forget to link the corresponding issue by writing the `#issue-number`.
+  7. **Follow Up** We will review your changes and may provide feedback. Please address any comments or requested changes, and we’ll merge your contribution!
 
-7. **Follow Up** We will review your changes and may provide feedback. Please address any comments or requested changes, and we’ll merge your contribution!
-
-**Licensing and Attribution**
+# **Licensing and Attribution**
 To keep it simple, there are no prerequisites.
 While there are no prerequisites, an individual may need to utilize tools such as Git, Github etc to be able to
 contribute. The reason these are not mentioned as a prerequisite is because, in Sourceware Labs, we are always available
