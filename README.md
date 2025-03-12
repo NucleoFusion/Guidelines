@@ -41,26 +41,23 @@
   - `docs/clarify-setup-instructions`
   4. **Make Your Changes:**
   - Add your code, features, or bug fixes.
-  5. **Commit Guidelines:** When committing changes to your branch, please follow this naming scheme to keep commit history clean and readable:
-    
-  Commit message format: `<type>:<short-description>`
-
-  Types:
-   
-  feat: A new feature or functionality added to the project.
-  fix: A bug fix.
-  docs: Documentation changes.
-  style: Code style changes (e.g., formatting, missing semicolons).
-  refactor: Code changes that neither fix a bug nor add a feature, but improve the structure.
-  test: Adding or modifying tests.
-  chore: Changes to the build process or auxiliary tools.
-  Example Commit Messages:
-  feat: add user authentication to the website
-  fix: resolve issue with missing image on homepage
-  docs: update README.md with contribution guidelines
-  style: format code according to ESLint rules
-  test: add unit test for login function
-  chore: update dependencies to latest version
+  5. **Commit Guidelines:** When committing changes to your branch, please follow this naming scheme to keep commit history clean and readable:<br><br>
+    Commit message format: `<type>:<short-description>`<br><br>
+    Types:<br><br>
+      feat: A new feature or functionality added to the project.<br>
+      fix: A bug fix.<br>
+      docs: Documentation changes.<br>
+      style: Code style changes (e.g., formatting, missing semicolons).<br>
+      refactor: Code changes that neither fix a bug nor add a feature, but improve the structure.<br>
+      test: Adding or modifying tests.<br>
+      chore: Changes to the build process or auxiliary tools.<br>
+      Example Commit Messages:<br>
+      feat: add user authentication to the website<br>
+      fix: resolve issue with missing image on homepage<br>
+      docs: update README.md with contribution guidelines<br>
+      style: format code according to ESLint rules<br>
+      test: add unit test for login function<br>
+      chore: update dependencies to latest version<br>
 
 6. **Push and Create a Pull Request:** Once you're ready, push your changes to your forked repository and open a pull request to the `dev` repository.
 **Note:** open a pull request per feature and don't forget to link the corresponding issue by writing the `#issue-number`.
