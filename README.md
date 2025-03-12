@@ -1,5 +1,4 @@
 <h1>Sourceware Labs</h1>
-<hr />
 <div>
   <h2>Introduction</h2>
   <p>
@@ -16,7 +15,7 @@
   <h2>Prerequisites</h2>
   <p>
     To keep it simple, there are no prerequisites.
-    <br />
+    <br /><br />
     Ok, so while there are no prerequisites, an individual may need to utilize tools such as Git, Github etc to be able to
     contribute. The reason these are not mentioned as a prerequisite is because, in Sourceware Labs, we are always available
     to help you. You can ask questions to all the members of the community, or, if you have some specific question, pertaining to
@@ -42,41 +41,20 @@
 <div>
   <h2>Submitting Contributions</h2>
   <p>
-    To keep it simple, there are no prerequisites.
+    Every project has a certain Issues which you can contribute to, or if you have your own ideas or issues, we encourage
+    you to create a Github Issue and communicate with other people on its plausibility.
+    <br /><br />
+    To contribute to a project, you can create a Pull Request(PR), you should keep in mind that you should not make a PR to the main
+    branch, a PR should be created to the dev branch generally. Also have a good description of the PR.
     <br />
-    While there are no prerequisites, an individual may need to utilize tools such as Git, Github etc to be able to
-    contribute. The reason these are not mentioned as a prerequisite is because, in Sourceware Labs, we are always available
-    to help you. You can ask questions to all the members of the community, or, if you have some specific question, pertaining to
-    a project, or tool, feel free to ping the Project Leads (@project-lead) or Admins and theyll be able to help you.
-  </p>
-</div>
-
-<div>
-  <h2>Communication and Discussions</h2>
-  <p>
-    To keep it simple, there are no prerequisites.
-    <br />
-    While there are no prerequisites, an individual may need to utilize tools such as Git, Github etc to be able to
-    contribute. The reason these are not mentioned as a prerequisite is because, in Sourceware Labs, we are always available
-    to help you. You can ask questions to all the members of the community, or, if you have some specific question, pertaining to
-    a project, or tool, feel free to ping the Project Leads (@project-lead) or Admins and theyll be able to help you.
+    Ex: feature: some feature <br />
+    Ex: bug: some bug <br />
+    Make sure to check the PR for any changes the Project Leaders ask for and either talk to them if you have any problems.
   </p>
 </div>
 
 <div>
   <h2>Licensing and Attribution</h2>
-  <p>
-    To keep it simple, there are no prerequisites.
-    <br />
-    While there are no prerequisites, an individual may need to utilize tools such as Git, Github etc to be able to
-    contribute. The reason these are not mentioned as a prerequisite is because, in Sourceware Labs, we are always available
-    to help you. You can ask questions to all the members of the community, or, if you have some specific question, pertaining to
-    a project, or tool, feel free to ping the Project Leads (@project-lead) or Admins and theyll be able to help you.
-  </p>
-</div>
-
-<div>
-  <h2>Code of Conduct</h2>
   <p>
     To keep it simple, there are no prerequisites.
     <br />
