@@ -16,10 +16,10 @@
   <p>
     To keep it simple, there are no prerequisites.
     <br /><br />
-    Ok, so while there are no prerequisites, an individual may need to utilize tools such as Git, Github etc to be able to
-    contribute. The reason these are not mentioned as a prerequisite is because, in Sourceware Labs, we are always available
-    to help you. You can ask questions to all the members of the community, or, if you have some specific question, pertaining to
-    a project, or tool, feel free to ping the Project Leads (@project-lead) or Admins and theyll be able to help you.
+    While there are no prerequisites, an individual may need to utilize tools such as Git, Github etc to be able to
+    contribute. The reason these are not mentioned as a prerequisite is because we are always there 
+    to help you. You can ask questions in the community, or, if you have some specific question, pertaining to
+    a project, or tool, feel free to ping the Project Leads (@project-lead) or Admins (@admin) and theyll be able to help you.
   </p>
 </div>
 
@@ -27,30 +27,53 @@
   <h2>How to Get Started</h2>
   <p>
     Getting started is simple, you can browse the #project-hub channel to find a project, or submit one of your own ideas there.
-    Once you find a project you are suitable with, you can go to the github repository of that respective project.
-    Now heres the important part, make sure while forking the project, you disable the "Fork main branch only" option. You will see why
-    this is important in the "Submitting Contributions" section.
+    Once you find a project you are suitable with, you can go to the github repository of that respective project and fork it.
+    Some things to keep in mind while forking, make sure you disable the "Fork main branch only" option. You will see why
+    this is important in the next section.
     <br /><br />
-    Explaining a little about the format of our repositories, generally we have a main branch, and a dev branch. The dev branch holds 
-    the latest commits and changes, while the main branch holds the stable releases. The benefit of seperating them as such is, this allows
+    Our repositories generally have the format of having 2 branches, we have the main branch, and the dev branch. The dev branch holds 
+    the latest commits and changes, while the main branch holds the stable releases. The benefit of seperating them as such is that this allows
     us to have a CI/CD pipeline, which in leymann terms, means that whenever the code on the main branch changes, all active deployments of
-    that respective project switch to the new version. This allows us to develop and code beside the actual project deployments without hindering it.
+    that respective project switch to the new version. This allows us to develop and work on the project beside the deployments without hindering it.
   </p>
 </div>
 
 <div>
   <h2>Submitting Contributions</h2>
   <p>
-    Every project has a certain Issues which you can contribute to, or if you have your own ideas or issues, we encourage
-    you to create a Github Issue and communicate with other people on its plausibility.
-    <br /><br />
-    To contribute to a project, you can create a Pull Request(PR), you should keep in mind that you should not make a PR to the main
-    branch, a PR should be created to the dev branch generally. Also have a good description of the PR.
-    <br />
-    Ex: feature: some feature <br />
-    Ex: bug: some bug <br />
-    Make sure to check the PR for any changes the Project Leaders ask for and either talk to them if you have any problems.
-  </p>
+    We love contributions from everyone! Whether you're fixing a bug, adding a new feature, or improving documentation, your help is always appreciated.
+    Here's how you can contribute:
+    Follow the steps below to contribute effectively:
+    1. **Fork the Repository:** Start by forking the repository to your own GitHub account.<br>
+    2. **Clone the Repository:** Clone the forked repository to your local development environment.<br><br>
+    `git clone https://github.com/your-username/GlaDOS-bot.git`<br><br>
+    3. **Create a New Branch Locally:** Create a branch for your feature or fix. Name your branch in a way that describes the purpose of your changes. For example:<br>
+    - `feature/feature-name`<br>
+    - `bugfix/bug-description`<br>
+    - `docs/clarify-setup-instructions`<br><br>
+    4. **Make Your Changes:**<br>
+    - Add your code, features, or bug fixes.<br><br>
+    5. **Commit Guidelines:** When committing changes to your branch, please follow this naming scheme to keep commit history clean and readable:<br>
+Commit message format: `<type>:<short-description>`<br>
+Types:<br>
+    feat: A new feature or functionality added to the project.<br>
+    fix: A bug fix.<br>
+    docs: Documentation changes.<br>
+    style: Code style changes (e.g., formatting, missing semicolons).<br>
+    refactor: Code changes that neither fix a bug nor add a feature, but improve the structure.<br>
+    test: Adding or modifying tests.<br>
+    chore: Changes to the build process or auxiliary tools.<br>
+Example Commit Messages:<br>
+    feat: add user authentication to the website<br>
+    fix: resolve issue with missing image on homepage<br>
+    docs: update README.md with contribution guidelines<br>
+    style: format code according to ESLint rules<br>
+    test: add unit test for login function<br>
+    chore: update dependencies to latest version<br><br>
+    6. **Push and Create a Pull Request:** Once you're ready, push your changes to your forked repository and open a pull request to the `dev` repository.<br>
+    **Note:** open a pull request per feature and don't forget to link the corresponding issue by writing the `#issue-number`.<br><br>
+    7. **Follow Up** We will review your changes and may provide feedback. Please address any comments or requested changes, and we’ll merge your contribution!<br>
+</p>
 </div>
 
 <div>
