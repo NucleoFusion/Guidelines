@@ -1,4 +1,3 @@
-# Sourceware Labs
   #  **Introduction**
   Welcome to Sourceware Labs.
   <br /><br /> 
@@ -6,8 +5,6 @@
   We believe and promote our motto, "Learning by Doing", emphasizing hands-on experience over passive learning. 
   Whether you're a beginner or an expert, Sourceware Labs provides a space to explore, experiment, and grow through real-world projects and 
   find like minded people who are just as passionate as you.
-
----
 
   # **Prerequisites**
   To keep it simple, there are no prerequisites.
